@@ -1,0 +1,27 @@
+[
+	{
+		"file": "X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\Source\\Slipways\\Slipways.Build.cs",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @\"X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\.vscode\\compileCommands_Default\\Slipways.217.rsp\"",
+		"directory": "X:\\Game Engines\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\Source\\Slipways\\Slipways.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @\"X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\.vscode\\compileCommands_Default\\Slipways.217.rsp\"",
+		"directory": "X:\\Game Engines\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\Source\\Slipways\\Slipways.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @\"X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\.vscode\\compileCommands_Default\\Slipways.217.rsp\"",
+		"directory": "X:\\Game Engines\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\Source\\Slipways\\WwiseFix.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @\"X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\.vscode\\compileCommands_Default\\Slipways.217.rsp\"",
+		"directory": "X:\\Game Engines\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\Source\\Slipways\\WwiseFix.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe\" @\"X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\.vscode\\compileCommands_Default\\Slipways.217.rsp\"",
+		"directory": "X:\\Game Engines\\UE_5.0\\Engine\\Source"
+	}
+]

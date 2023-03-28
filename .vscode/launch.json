@@ -1,0 +1,152 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch Slipways (Debug)",
+			"request": "launch",
+			"program": "X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "Slipways Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "X:\\Game Engines\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "X:\\Game Engines\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "X:\\Game Engines\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Slipways (DebugGame)",
+			"request": "launch",
+			"program": "X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "Slipways Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "X:\\Game Engines\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "X:\\Game Engines\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "X:\\Game Engines\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Slipways (Development)",
+			"request": "launch",
+			"program": "X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "Slipways Win64 Development Build",
+			"args": [
+			],
+			"cwd": "X:\\Game Engines\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "X:\\Game Engines\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "X:\\Game Engines\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Slipways (Test)",
+			"request": "launch",
+			"program": "X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "Slipways Win64 Test Build",
+			"args": [
+			],
+			"cwd": "X:\\Game Engines\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "X:\\Game Engines\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "X:\\Game Engines\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Slipways (Shipping)",
+			"request": "launch",
+			"program": "X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "Slipways Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "X:\\Game Engines\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "X:\\Game Engines\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "X:\\Game Engines\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch SlipwaysEditor (Debug)",
+			"request": "launch",
+			"program": "X:\\Game Engines\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "SlipwaysEditor Win64 Debug Build",
+			"args": [
+				"X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\Slipways.uproject"
+			],
+			"cwd": "X:\\Game Engines\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "X:\\Game Engines\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "X:\\Game Engines\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch SlipwaysEditor (DebugGame)",
+			"request": "launch",
+			"program": "X:\\Game Engines\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "SlipwaysEditor Win64 DebugGame Build",
+			"args": [
+				"X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\Slipways.uproject"
+			],
+			"cwd": "X:\\Game Engines\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "X:\\Game Engines\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "X:\\Game Engines\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch SlipwaysEditor (Development)",
+			"request": "launch",
+			"program": "X:\\Game Engines\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "SlipwaysEditor Win64 Development Build",
+			"args": [
+				"X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\Slipways.uproject"
+			],
+			"cwd": "X:\\Game Engines\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "X:\\Game Engines\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "X:\\Game Engines\\UE_5.0"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "X:\\Game Engines\\UE_5.0\\Engine\\Binaries\\DotNET\\UnrealBuildTool\\UnrealBuildTool",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\Slipways.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "X:\\Game Engines\\UE_5.0"
+		}
+	]
+}

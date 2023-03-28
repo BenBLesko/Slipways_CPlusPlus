@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "SlipwaysEditor Editor Win64 Development (Slipways)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\.vscode\\compileCommands_Slipways.json"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "X:\\Life\\University\\Year 03\\DES310\\Wwise Fix\\Slipways\\.vscode\\compileCommands_Default.json"
+        }
+    ],
+    "version": 4
+}
