@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{1715CE12-FCEE-DB2B-1ED9-7180CC72C998}",
+    "Hash": "{5C14E306-4946-0D1C-B4AB-4185B10E2A61}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -70,7 +70,7 @@
     "Type": "User",
     "GUID": "{FB2EDB54-3CFD-4077-ABC3-8E90FCA9E6C1}",
     "Language": "SFX",
-    "Hash": "{9E9193B5-6EFB-63F0-D501-552C5745D5DE}",
+    "Hash": "{7E39746E-C6B0-51E7-86E6-19665DB3F044}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -161,7 +161,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "460_Ranchero_S1.wav",
-      "CachePath": "SFX/460_Ranchero_S1_3F5299B0.wem"
+      "CachePath": "SFX/460_Ranchero_S1_31E06DA1.wem"
      },
      {
       "Id": "135258128",
@@ -835,6 +835,6 @@
     ]
    }
   ],
-  "FileHash": "{CF9462EC-82A3-3498-6912-C8042CDC737E}"
+  "FileHash": "{3C4920BE-6BE1-B264-256D-670EAF6F7120}"
  }
 }

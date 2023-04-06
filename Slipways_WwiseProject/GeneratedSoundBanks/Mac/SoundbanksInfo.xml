@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{62359A3C-86C6-05A8-C04A-87874263CB65}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{BC918A6E-3A79-8BF6-1782-60DCF8B8B7FB}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -27,7 +27,7 @@
 				<GameParameter Id="2243460727" Name="PlayerHeight" ObjectPath="\Game Parameters\Default Work Unit\PlayerHeight" GUID="{4A7E4FE7-6C7B-4A50-B933-B85BB4461836}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{FB2EDB54-3CFD-4077-ABC3-8E90FCA9E6C1}" Language="SFX" Hash="{9E9193B5-6EFB-63F0-D501-552C5745D5DE}">
+		<SoundBank Id="3161908922" Type="User" GUID="{FB2EDB54-3CFD-4077-ABC3-8E90FCA9E6C1}" Language="SFX" Hash="{7E39746E-C6B0-51E7-86E6-19665DB3F044}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -74,7 +74,7 @@
 				</File>
 				<File Id="111330509" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>460_Ranchero_S1.wav</ShortName>
-					<CachePath>SFX/460_Ranchero_S1_3F5299B0.wem</CachePath>
+					<CachePath>SFX/460_Ranchero_S1_31E06DA1.wem</CachePath>
 				</File>
 				<File Id="135258128" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MM\Foundry\Bass\MM_88FoundryBassV-006.wav</ShortName>
@@ -377,5 +377,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8AA377DF-9DC0-87D6-3396-879D751F7032}</FileHash>
+	<FileHash>{EA5F613E-03B4-5DC9-C2EE-86085BCC4C3A}</FileHash>
 </SoundBanksInfo>

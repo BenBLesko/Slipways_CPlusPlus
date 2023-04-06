@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FB2EDB54-3CFD-4077-ABC3-8E90FCA9E6C1}",
     "Language": "SFX",
-    "Hash": "{9E9193B5-6EFB-63F0-D501-552C5745D5DE}",
+    "Hash": "{7E39746E-C6B0-51E7-86E6-19665DB3F044}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -101,7 +101,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "460_Ranchero_S1.wav",
-      "CachePath": "SFX/460_Ranchero_S1_3F5299B0.wem"
+      "CachePath": "SFX/460_Ranchero_S1_31E06DA1.wem"
      },
      {
       "Id": "135258128",
@@ -775,6 +775,6 @@
     ]
    }
   ],
-  "FileHash": "{B963CE1A-615A-D3A9-C054-7B216AA3E9EA}"
+  "FileHash": "{DE459020-1A35-251D-B5E7-CA9DA8F4AE6D}"
  }
 }

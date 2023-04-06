@@ -5,6 +5,8 @@
 			<ChildrenList>
 				<MusicPlaylistContainer Name="88Foundry" ID="{2767562F-0486-46E7-89C8-5657E51C6AA6}" ShortID="95251529">
 					<PropertyList>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
 						<Property Name="Tempo" Type="Real64" Value="88"/>
 					</PropertyList>
 					<ReferenceList>
@@ -1320,12 +1322,19 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>0</XPos>
+																				<XPos>60</XPos>
 																				<YPos>-200</YPos>
 																				<Flags>5</Flags>
+																				<SegmentShape>Exp1</SegmentShape>
 																			</Point>
 																			<Point>
-																				<XPos>100</XPos>
+																				<XPos>89.83278</XPos>
+																				<YPos>-19.55447</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Exp1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>120</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>

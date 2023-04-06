@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{FB2EDB54-3CFD-4077-ABC3-8E90FCA9E6C1}" Language="SFX" Hash="{9E9193B5-6EFB-63F0-D501-552C5745D5DE}">
+		<SoundBank Id="3161908922" Type="User" GUID="{FB2EDB54-3CFD-4077-ABC3-8E90FCA9E6C1}" Language="SFX" Hash="{7E39746E-C6B0-51E7-86E6-19665DB3F044}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -48,7 +48,7 @@
 				</File>
 				<File Id="111330509" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>460_Ranchero_S1.wav</ShortName>
-					<CachePath>SFX/460_Ranchero_S1_3F5299B0.wem</CachePath>
+					<CachePath>SFX/460_Ranchero_S1_31E06DA1.wem</CachePath>
 				</File>
 				<File Id="135258128" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MM\Foundry\Bass\MM_88FoundryBassV-006.wav</ShortName>
@@ -351,5 +351,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4AA1EEAD-B650-6AA7-990E-75CE032658FE}</FileHash>
+	<FileHash>{167D1A01-CFDB-2BCB-6836-786274523B6F}</FileHash>
 </SoundBanksInfo>

@@ -49,6 +49,11 @@
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-25</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -130,12 +135,12 @@
 																</PropertyList>
 																<PointList>
 																	<Point>
-																		<XPos>0</XPos>
+																		<XPos>60</XPos>
 																		<YPos>-6</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>100</XPos>
+																		<XPos>120</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -284,12 +289,12 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>0</XPos>
+																				<XPos>60</XPos>
 																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>100</XPos>
+																				<XPos>120</XPos>
 																				<YPos>750</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -425,12 +430,12 @@
 																</PropertyList>
 																<PointList>
 																	<Point>
-																		<XPos>0</XPos>
+																		<XPos>60</XPos>
 																		<YPos>-750</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>100</XPos>
+																		<XPos>120</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -1029,13 +1034,13 @@
 																</PropertyList>
 																<PointList>
 																	<Point>
-																		<XPos>0</XPos>
+																		<XPos>60</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>5</Flags>
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>100</XPos>
+																		<XPos>120</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -1065,13 +1070,13 @@
 																</PropertyList>
 																<PointList>
 																	<Point>
-																		<XPos>0</XPos>
+																		<XPos>60</XPos>
 																		<YPos>0</YPos>
 																		<Flags>5</Flags>
 																		<SegmentShape>InvertedSCurve</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>100</XPos>
+																		<XPos>120</XPos>
 																		<YPos>-750</YPos>
 																		<Flags>37</Flags>
 																	</Point>
