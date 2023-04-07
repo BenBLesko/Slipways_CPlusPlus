@@ -3930,14 +3930,13 @@
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{C6D0D0E8-400A-49B9-A00B-D25D632448D2}" ShortID="640026652">
 											<PropertyList>
-												<Property Name="LoopCount" Type="int16" Value="6"/>
+												<Property Name="LoopCount" Type="int16" Value="2"/>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<SegmentRef Name="Chorus" ID="{DA6CAD30-EC9C-4E6E-90D3-56AB60C1F724}"/>
 										</MusicPlaylistItem>
 										<MusicPlaylistItem Name="" ID="{A8AA988D-181A-446E-8B45-DA6107D44F8A}" ShortID="576065660">
 											<PropertyList>
-												<Property Name="LoopCount" Type="int16" Value="4"/>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<SegmentRef Name="Verse" ID="{9463A98D-6C07-479E-B6EC-CD4059613CC8}"/>

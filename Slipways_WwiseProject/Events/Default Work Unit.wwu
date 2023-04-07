@@ -105,6 +105,12 @@
 					<ChildrenList>
 						<Event Name="PlayFoundry" ID="{38238178-DFF7-4ACE-BD82-F31EC0C1A487}">
 							<ChildrenList>
+								<Action Name="" ID="{346C9974-8DB5-47D8-A2D0-28A9C5EFC249}" ShortID="73612372">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
 								<Action Name="" ID="{2AE47933-2A0D-4936-A8AE-5D91CD91240F}" ShortID="109630013">
 									<ReferenceList>
 										<Reference Name="Target">

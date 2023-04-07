@@ -27,7 +27,7 @@
 				<GameParameter Id="2243460727" Name="PlayerHeight" ObjectPath="\Game Parameters\Default Work Unit\PlayerHeight" GUID="{4A7E4FE7-6C7B-4A50-B933-B85BB4461836}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{FB2EDB54-3CFD-4077-ABC3-8E90FCA9E6C1}" Language="SFX" Hash="{7E39746E-C6B0-51E7-86E6-19665DB3F044}">
+		<SoundBank Id="3161908922" Type="User" GUID="{FB2EDB54-3CFD-4077-ABC3-8E90FCA9E6C1}" Language="SFX" Hash="{846817D9-607A-4F45-61CF-10B70192F375}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -377,5 +377,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{328AFB45-1281-B26D-3815-3CE5D0DCAF68}</FileHash>
+	<FileHash>{E11E32B9-9FC2-74ED-1E7C-B27437C81296}</FileHash>
 </SoundBanksInfo>
