@@ -100,14 +100,40 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="ASFX" ID="{1F4B0B5C-68A7-4394-B6DE-AE3C39BC0195}" ShortID="131810859"/>
+				<Folder Name="ASFX" ID="{1F4B0B5C-68A7-4394-B6DE-AE3C39BC0195}" ShortID="131810859">
+					<ChildrenList>
+						<Event Name="Bubbles" ID="{A1856394-B95B-4CE1-94DB-38F160828E68}">
+							<ChildrenList>
+								<Action Name="" ID="{4DC1DF22-4044-43CD-820B-35EB76029F84}" ShortID="945071690">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ASFX_Bubbles" ID="{99C65D58-43B4-4D59-88DD-DD219F990982}" WorkUnitID="{883E61F6-42E7-44D4-A5AB-6BD39E9A09D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="MM" ID="{3CEA06DF-6294-4EAA-A96A-48E9550FB6A8}" ShortID="982524730">
 					<ChildrenList>
 						<Event Name="PlayFoundry" ID="{38238178-DFF7-4ACE-BD82-F31EC0C1A487}">
 							<ChildrenList>
 								<Action Name="" ID="{346C9974-8DB5-47D8-A2D0-28A9C5EFC249}" ShortID="73612372">
 									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="88Foundry" ID="{2767562F-0486-46E7-89C8-5657E51C6AA6}" WorkUnitID="{88991FA0-193E-40B5-8C2A-A0E9610DB272}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5B4D8AC0-3744-4172-BAE9-1B829470C39B}" ShortID="638861111">
+									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList/>
 								</Action>

@@ -53,7 +53,7 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-25</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1105,12 +1105,16 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="ASFX_Bubbles" ID="{99C65D58-43B4-4D59-88DD-DD219F990982}" ShortID="886550000">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="MediumA" ID="{2E4E0E81-D74E-4C93-B920-D280ACD93CB9}" WorkUnitID="{D929CF3A-DDBF-4C5C-8CD2-1C6D9DA46E62}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6EF6989A-57B2-4698-A525-04C796C19F4F}"/>
 								</Reference>
