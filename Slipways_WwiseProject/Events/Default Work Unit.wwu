@@ -100,7 +100,32 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="ASFX" ID="{1F4B0B5C-68A7-4394-B6DE-AE3C39BC0195}" ShortID="131810859"/>
+				<Folder Name="ASFX" ID="{1F4B0B5C-68A7-4394-B6DE-AE3C39BC0195}" ShortID="131810859">
+					<ChildrenList>
+						<Event Name="Bubbles" ID="{D2FF3B82-46AB-45B3-9303-FEE686E9B85D}">
+							<ChildrenList>
+								<Action Name="" ID="{A50FD108-E635-415C-BBA4-EAA20D4BEBB3}" ShortID="627925093">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ASFX_Bubbles" ID="{99C65D58-43B4-4D59-88DD-DD219F990982}" WorkUnitID="{883E61F6-42E7-44D4-A5AB-6BD39E9A09D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ChainBelt" ID="{4DCCF057-969B-46CB-9C33-404EFE8D62B3}">
+							<ChildrenList>
+								<Action Name="" ID="{90198D3D-2B4D-4723-97E8-46CE23A406AD}" ShortID="183160439">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ASFX_ChainBelt" ID="{5C328AF0-2B3B-412A-91FE-1D4CEFB19152}" WorkUnitID="{883E61F6-42E7-44D4-A5AB-6BD39E9A09D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="MM" ID="{3CEA06DF-6294-4EAA-A96A-48E9550FB6A8}" ShortID="982524730">
 					<ChildrenList>
 						<Event Name="PlayFoundry" ID="{38238178-DFF7-4ACE-BD82-F31EC0C1A487}">
@@ -108,8 +133,20 @@
 								<Action Name="" ID="{346C9974-8DB5-47D8-A2D0-28A9C5EFC249}" ShortID="73612372">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{356EAF92-A76C-45BD-9845-4B85A9BF7569}" ShortID="580177539">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="88Foundry" ID="{2767562F-0486-46E7-89C8-5657E51C6AA6}" WorkUnitID="{88991FA0-193E-40B5-8C2A-A0E9610DB272}"/>
+										</Reference>
+									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{2AE47933-2A0D-4936-A8AE-5D91CD91240F}" ShortID="109630013">
 									<ReferenceList>
