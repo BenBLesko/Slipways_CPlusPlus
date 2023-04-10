@@ -13,7 +13,6 @@
 						<ObjectRef Name="PlayFoundry" ID="{38238178-DFF7-4ACE-BD82-F31EC0C1A487}" WorkUnitID="{C14D1F42-EB7E-472C-AAD3-D5EF00C36694}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Swoosh" ID="{1F514A8E-13BA-4C38-BC81-FCD7AA0D130C}" WorkUnitID="{C14D1F42-EB7E-472C-AAD3-D5EF00C36694}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="BoostEnd" ID="{1FEE8A5B-E52A-4CCF-A898-49293F93BA1A}" WorkUnitID="{C14D1F42-EB7E-472C-AAD3-D5EF00C36694}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Bubbles" ID="{A1856394-B95B-4CE1-94DB-38F160828E68}" WorkUnitID="{C14D1F42-EB7E-472C-AAD3-D5EF00C36694}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

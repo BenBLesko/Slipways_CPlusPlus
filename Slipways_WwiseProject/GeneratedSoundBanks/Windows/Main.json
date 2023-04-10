@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FB2EDB54-3CFD-4077-ABC3-8E90FCA9E6C1}",
     "Language": "SFX",
-    "Hash": "{2C62D64E-8A82-87F1-1338-11AD736596D5}",
+    "Hash": "{846817D9-607A-4F45-61CF-10B70192F375}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -128,14 +128,6 @@
       "CachePath": "SFX/PSFX_HoverBoostEnd_E81A20E1.wem"
      },
      {
-      "Id": "181267018",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "ASFX_Bubbles-006.wav",
-      "CachePath": "SFX/ASFX_Bubbles-006_45245E50.wem"
-     },
-     {
       "Id": "183298595",
       "Language": "SFX",
       "Streaming": "false",
@@ -150,14 +142,6 @@
       "Location": "Memory",
       "ShortName": "LSFX_Swoosh-006.wav",
       "CachePath": "SFX/LSFX_Swoosh-006_10C4C929.wem"
-     },
-     {
-      "Id": "213291517",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "ASFX_Bubbles-007.wav",
-      "CachePath": "SFX/ASFX_Bubbles-007_45245E50.wem"
      },
      {
       "Id": "237263188",
@@ -240,14 +224,6 @@
       "CachePath": "SFX/MM/Foundry/Guitar/MM_88FoundryRhythmV-004_D79FB2B7.wem"
      },
      {
-      "Id": "355988937",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "ASFX_Bubbles-005.wav",
-      "CachePath": "SFX/ASFX_Bubbles-005_45245E50.wem"
-     },
-     {
       "Id": "361530650",
       "Language": "SFX",
       "Streaming": "false",
@@ -280,22 +256,6 @@
       "CachePath": "SFX/LSFX_Pour_10C4C929.wem"
      },
      {
-      "Id": "507088917",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "ASFX_Bubbles-001.wav",
-      "CachePath": "SFX/ASFX_Bubbles-001_E6771ADD.wem"
-     },
-     {
-      "Id": "508764291",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "ASFX_Bubbles-008.wav",
-      "CachePath": "SFX/ASFX_Bubbles-008_45245E50.wem"
-     },
-     {
       "Id": "519038006",
       "Language": "SFX",
       "Streaming": "false",
@@ -312,28 +272,12 @@
       "CachePath": "SFX/LSFX_Pour-006_10C4C929.wem"
      },
      {
-      "Id": "551092016",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "ASFX_Bubbles-009.wav",
-      "CachePath": "SFX/ASFX_Bubbles-009_45245E50.wem"
-     },
-     {
       "Id": "617270563",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "MM\\Foundry\\Percussion\\MM_88FoundryDrumsC-002.wav",
       "CachePath": "SFX/MM/Foundry/Percussion/MM_88FoundryDrumsC-002_D79FB2B7.wem"
-     },
-     {
-      "Id": "617394508",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "ASFX_Bubbles-002.wav",
-      "CachePath": "SFX/ASFX_Bubbles-002_4F6A65E8.wem"
      },
      {
       "Id": "624489492",
@@ -384,14 +328,6 @@
       "CachePath": "SFX/MM/Foundry/Bass/MM_88FoundryBassV-002_D79FB2B7.wem"
      },
      {
-      "Id": "753751023",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "ASFX_Bubbles.wav",
-      "CachePath": "SFX/ASFX_Bubbles_1997D19C.wem"
-     },
-     {
       "Id": "760168400",
       "Language": "SFX",
       "Streaming": "false",
@@ -438,22 +374,6 @@
       "Location": "Memory",
       "ShortName": "460_Ranchero_S2.wav",
       "CachePath": "SFX/460_Ranchero_S2_10C4C929.wem"
-     },
-     {
-      "Id": "821861200",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "ASFX_Bubbles-004.wav",
-      "CachePath": "SFX/ASFX_Bubbles-004_7D6FD89E.wem"
-     },
-     {
-      "Id": "826226574",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "ASFX_Bubbles-003.wav",
-      "CachePath": "SFX/ASFX_Bubbles-003_7D6FD89E.wem"
      },
      {
       "Id": "851333666",
@@ -611,46 +531,6 @@
       "MediaRefs": [
        {
         "Id": "180307444"
-       }
-      ]
-     },
-     {
-      "Id": "769541046",
-      "Name": "Bubbles",
-      "ObjectPath": "\\Events\\Default Work Unit\\ASFX\\Bubbles",
-      "GUID": "{A1856394-B95B-4CE1-94DB-38F160828E68}",
-      "MaxAttenuation": "1000",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "181267018"
-       },
-       {
-        "Id": "213291517"
-       },
-       {
-        "Id": "355988937"
-       },
-       {
-        "Id": "507088917"
-       },
-       {
-        "Id": "508764291"
-       },
-       {
-        "Id": "551092016"
-       },
-       {
-        "Id": "617394508"
-       },
-       {
-        "Id": "753751023"
-       },
-       {
-        "Id": "821861200"
-       },
-       {
-        "Id": "826226574"
        }
       ]
      },
@@ -895,6 +775,6 @@
     ]
    }
   ],
-  "FileHash": "{5C707321-D458-306C-A6A0-9D24ACE718E8}"
+  "FileHash": "{7295B302-F50D-4F87-7C19-D85069AAEB9E}"
  }
 }
