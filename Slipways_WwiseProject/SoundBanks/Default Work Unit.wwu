@@ -5,7 +5,16 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{FB2EDB54-3CFD-4077-ABC3-8E90FCA9E6C1}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Boost" ID="{C1155C48-8ED0-4104-A7BC-83C9DEBEF8BD}" WorkUnitID="{C14D1F42-EB7E-472C-AAD3-D5EF00C36694}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TestEvent" ID="{41B8F2CD-4FB9-4195-90A2-DEC7F273E9EF}" WorkUnitID="{C14D1F42-EB7E-472C-AAD3-D5EF00C36694}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="HoverIdle" ID="{1243EB93-8E84-4293-87A8-436A01FF92E4}" WorkUnitID="{C14D1F42-EB7E-472C-AAD3-D5EF00C36694}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Bubbles" ID="{D2FF3B82-46AB-45B3-9303-FEE686E9B85D}" WorkUnitID="{C14D1F42-EB7E-472C-AAD3-D5EF00C36694}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ChainBelt" ID="{4DCCF057-969B-46CB-9C33-404EFE8D62B3}" WorkUnitID="{C14D1F42-EB7E-472C-AAD3-D5EF00C36694}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="HoverForward" ID="{F9F509A0-DDD6-480B-A1D7-DABEF143DDC2}" WorkUnitID="{C14D1F42-EB7E-472C-AAD3-D5EF00C36694}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pour" ID="{B76A02A2-EE52-48CF-A8ED-5C38CEF8CE8E}" WorkUnitID="{C14D1F42-EB7E-472C-AAD3-D5EF00C36694}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayFoundry" ID="{38238178-DFF7-4ACE-BD82-F31EC0C1A487}" WorkUnitID="{C14D1F42-EB7E-472C-AAD3-D5EF00C36694}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Swoosh" ID="{1F514A8E-13BA-4C38-BC81-FCD7AA0D130C}" WorkUnitID="{C14D1F42-EB7E-472C-AAD3-D5EF00C36694}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BoostEnd" ID="{1FEE8A5B-E52A-4CCF-A898-49293F93BA1A}" WorkUnitID="{C14D1F42-EB7E-472C-AAD3-D5EF00C36694}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
