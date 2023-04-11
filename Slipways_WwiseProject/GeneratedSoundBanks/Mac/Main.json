@@ -10,11 +10,627 @@
     "Type": "User",
     "GUID": "{FB2EDB54-3CFD-4077-ABC3-8E90FCA9E6C1}",
     "Language": "SFX",
-    "Hash": "{1F9D2553-4299-4D5A-4818-1CA3FDB7D019}",
+    "Hash": "{AC199F89-18FA-A8DA-7D1F-DFCA30A8163B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "18839167",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LSFX_Pour-003.wav",
+      "CachePath": "SFX/LSFX_Pour-003_10C4C929.wem"
+     },
+     {
+      "Id": "36962053",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Percussion\\MM_88FoundryDrumsC-005.wav",
+      "CachePath": "SFX/MM/Foundry/Percussion/MM_88FoundryDrumsC-005_D79FB2B7.wem"
+     },
+     {
+      "Id": "44331646",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM_88FoundryDrumV-001.wav",
+      "CachePath": "SFX/MM_88FoundryDrumV-001_D79FB2B7.wem"
+     },
+     {
+      "Id": "52941783",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Bass\\MM_88FoundryBassV-004.wav",
+      "CachePath": "SFX/MM/Foundry/Bass/MM_88FoundryBassV-004_D79FB2B7.wem"
+     },
+     {
+      "Id": "60650882",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ASFX_ChainBelt-001.wav",
+      "CachePath": "SFX/ASFX_ChainBelt-001_10C4C929.wem"
+     },
+     {
+      "Id": "64891248",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Guitar\\MM_88FoundryRhythmC-001.wav",
+      "CachePath": "SFX/MM/Foundry/Guitar/MM_88FoundryRhythmC-001_D79FB2B7.wem"
+     },
+     {
+      "Id": "76936234",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Bass\\MM_88FoundryBassV.wav",
+      "CachePath": "SFX/MM/Foundry/Bass/MM_88FoundryBassV_D79FB2B7.wem"
+     },
+     {
+      "Id": "88482176",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM_88FoundryDrumV-002.wav",
+      "CachePath": "SFX/MM_88FoundryDrumV-002_D79FB2B7.wem"
+     },
+     {
+      "Id": "91182826",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ASFX_ChainBelt-004.wav",
+      "CachePath": "SFX/ASFX_ChainBelt-004_10C4C929.wem"
+     },
+     {
+      "Id": "95314076",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LSFX_Swoosh-005.wav",
+      "CachePath": "SFX/LSFX_Swoosh-005_10C4C929.wem"
+     },
+     {
+      "Id": "106193446",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LSFX_Pour-005.wav",
+      "CachePath": "SFX/LSFX_Pour-005_10C4C929.wem"
+     },
+     {
+      "Id": "110768401",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Guitar\\MM_88FoundryRhythmV-003.wav",
+      "CachePath": "SFX/MM/Foundry/Guitar/MM_88FoundryRhythmV-003_D79FB2B7.wem"
+     },
+     {
+      "Id": "111330509",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "460_Ranchero_S1.wav",
+      "CachePath": "SFX/460_Ranchero_S1_31E06DA1.wem"
+     },
+     {
+      "Id": "135258128",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Bass\\MM_88FoundryBassV-006.wav",
+      "CachePath": "SFX/MM/Foundry/Bass/MM_88FoundryBassV-006_D79FB2B7.wem"
+     },
+     {
+      "Id": "158121961",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LSFX_Swoosh.wav",
+      "CachePath": "SFX/LSFX_Swoosh_10C4C929.wem"
+     },
+     {
+      "Id": "170432043",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ASFX_ChainBelt.wav",
+      "CachePath": "SFX/ASFX_ChainBelt_10C4C929.wem"
+     },
+     {
+      "Id": "180307444",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PSFX_HoverBoostEnd.wav",
+      "CachePath": "SFX/PSFX_HoverBoostEnd_E81A20E1.wem"
+     },
+     {
+      "Id": "181267018",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ASFX_Bubbles-006.wav",
+      "CachePath": "SFX/ASFX_Bubbles-006_45245E50.wem"
+     },
+     {
+      "Id": "183298595",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PSFX_HoverBoostLoop.wav",
+      "CachePath": "SFX/PSFX_HoverBoostLoop_ABF466E1.wem"
+     },
+     {
+      "Id": "210871674",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LSFX_Swoosh-006.wav",
+      "CachePath": "SFX/LSFX_Swoosh-006_10C4C929.wem"
+     },
+     {
+      "Id": "213291517",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ASFX_Bubbles-007.wav",
+      "CachePath": "SFX/ASFX_Bubbles-007_45245E50.wem"
+     },
+     {
+      "Id": "237263188",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Bass\\MM_88FoundryBassV-001.wav",
+      "CachePath": "SFX/MM/Foundry/Bass/MM_88FoundryBassV-001_D79FB2B7.wem"
+     },
+     {
+      "Id": "240334999",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LSFX_Pour-004.wav",
+      "CachePath": "SFX/LSFX_Pour-004_10C4C929.wem"
+     },
+     {
+      "Id": "247539338",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Bass\\MM_88FoundryBassV-005.wav",
+      "CachePath": "SFX/MM/Foundry/Bass/MM_88FoundryBassV-005_D79FB2B7.wem"
+     },
+     {
+      "Id": "248392620",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ASFX_ChainBelt-003.wav",
+      "CachePath": "SFX/ASFX_ChainBelt-003_10C4C929.wem"
+     },
+     {
+      "Id": "267311208",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM_88FoundryDrumV-006.wav",
+      "CachePath": "SFX/MM_88FoundryDrumV-006_D79FB2B7.wem"
+     },
+     {
+      "Id": "279819401",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Bass\\MM_88FoundryBassC-004.wav",
+      "CachePath": "SFX/MM/Foundry/Bass/MM_88FoundryBassC-004_D79FB2B7.wem"
+     },
+     {
+      "Id": "287764070",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LSFX_Swoosh-004.wav",
+      "CachePath": "SFX/LSFX_Swoosh-004_10C4C929.wem"
+     },
+     {
+      "Id": "297580662",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Bass\\MM_88FoundryBassC-005.wav",
+      "CachePath": "SFX/MM/Foundry/Bass/MM_88FoundryBassC-005_D79FB2B7.wem"
+     },
+     {
+      "Id": "336076467",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Percussion\\MM_88FoundryDrumsC-003.wav",
+      "CachePath": "SFX/MM/Foundry/Percussion/MM_88FoundryDrumsC-003_D79FB2B7.wem"
+     },
+     {
+      "Id": "343876015",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Bass\\MM_88FoundryBassC-001.wav",
+      "CachePath": "SFX/MM/Foundry/Bass/MM_88FoundryBassC-001_D79FB2B7.wem"
+     },
+     {
+      "Id": "353573486",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Guitar\\MM_88FoundryRhythmV-004.wav",
+      "CachePath": "SFX/MM/Foundry/Guitar/MM_88FoundryRhythmV-004_D79FB2B7.wem"
+     },
+     {
+      "Id": "355988937",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ASFX_Bubbles-005.wav",
+      "CachePath": "SFX/ASFX_Bubbles-005_45245E50.wem"
+     },
+     {
+      "Id": "361132103",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ASFX_ChainBelt-006.wav",
+      "CachePath": "SFX/ASFX_ChainBelt-006_10C4C929.wem"
+     },
+     {
+      "Id": "361530650",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LSFX_Pour-001.wav",
+      "CachePath": "SFX/LSFX_Pour-001_10C4C929.wem"
+     },
+     {
+      "Id": "406692048",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Guitar\\MM_88FoundryRhythmC.wav",
+      "CachePath": "SFX/MM/Foundry/Guitar/MM_88FoundryRhythmC_D79FB2B7.wem"
+     },
+     {
+      "Id": "436573391",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LSFX_Swoosh-007.wav",
+      "CachePath": "SFX/LSFX_Swoosh-007_10C4C929.wem"
+     },
+     {
+      "Id": "445880534",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ASFX_ChainBelt-005.wav",
+      "CachePath": "SFX/ASFX_ChainBelt-005_10C4C929.wem"
+     },
+     {
+      "Id": "483673648",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LSFX_Pour.wav",
+      "CachePath": "SFX/LSFX_Pour_10C4C929.wem"
+     },
+     {
+      "Id": "507088917",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ASFX_Bubbles-001.wav",
+      "CachePath": "SFX/ASFX_Bubbles-001_E6771ADD.wem"
+     },
+     {
+      "Id": "508764291",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ASFX_Bubbles-008.wav",
+      "CachePath": "SFX/ASFX_Bubbles-008_45245E50.wem"
+     },
+     {
+      "Id": "519038006",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Guitar\\MM_88FoundryRhythmV-001.wav",
+      "CachePath": "SFX/MM/Foundry/Guitar/MM_88FoundryRhythmV-001_D79FB2B7.wem"
+     },
+     {
+      "Id": "526050004",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LSFX_Pour-006.wav",
+      "CachePath": "SFX/LSFX_Pour-006_10C4C929.wem"
+     },
+     {
+      "Id": "551092016",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ASFX_Bubbles-009.wav",
+      "CachePath": "SFX/ASFX_Bubbles-009_45245E50.wem"
+     },
+     {
+      "Id": "617270563",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Percussion\\MM_88FoundryDrumsC-002.wav",
+      "CachePath": "SFX/MM/Foundry/Percussion/MM_88FoundryDrumsC-002_D79FB2B7.wem"
+     },
+     {
+      "Id": "617394508",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ASFX_Bubbles-002.wav",
+      "CachePath": "SFX/ASFX_Bubbles-002_4F6A65E8.wem"
+     },
+     {
+      "Id": "624489492",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Bass\\MM_88FoundryBassC-003.wav",
+      "CachePath": "SFX/MM/Foundry/Bass/MM_88FoundryBassC-003_D79FB2B7.wem"
+     },
+     {
+      "Id": "626107509",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Guitar\\MM_88FoundryRhythmV.wav",
+      "CachePath": "SFX/MM/Foundry/Guitar/MM_88FoundryRhythmV_D79FB2B7.wem"
+     },
+     {
+      "Id": "663060546",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PSFX_HoverForward.wav",
+      "CachePath": "SFX/PSFX_HoverForward_C15F094B.wem"
+     },
+     {
+      "Id": "680624172",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Bass\\MM_88FoundryBassV-003.wav",
+      "CachePath": "SFX/MM/Foundry/Bass/MM_88FoundryBassV-003_D79FB2B7.wem"
+     },
+     {
+      "Id": "700929131",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM_88FoundryDrumV-004.wav",
+      "CachePath": "SFX/MM_88FoundryDrumV-004_D79FB2B7.wem"
+     },
+     {
+      "Id": "719093084",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Bass\\MM_88FoundryBassV-002.wav",
+      "CachePath": "SFX/MM/Foundry/Bass/MM_88FoundryBassV-002_D79FB2B7.wem"
+     },
+     {
+      "Id": "753751023",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ASFX_Bubbles.wav",
+      "CachePath": "SFX/ASFX_Bubbles_1997D19C.wem"
+     },
+     {
+      "Id": "760168400",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Percussion\\MM_88FoundryPercSamp.wav",
+      "CachePath": "SFX/MM/Foundry/Percussion/MM_88FoundryPercSamp_D79FB2B7.wem"
+     },
+     {
+      "Id": "769852809",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LSFX_Swoosh-002.wav",
+      "CachePath": "SFX/LSFX_Swoosh-002_10C4C929.wem"
+     },
+     {
+      "Id": "782783625",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Percussion\\MM_88FoundryDrumsC-001.wav",
+      "CachePath": "SFX/MM/Foundry/Percussion/MM_88FoundryDrumsC-001_D79FB2B7.wem"
+     },
+     {
+      "Id": "783917856",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Bass\\MM_88FoundryBassC-002.wav",
+      "CachePath": "SFX/MM/Foundry/Bass/MM_88FoundryBassC-002_D79FB2B7.wem"
+     },
+     {
+      "Id": "809939881",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Percussion\\MM_88FoundryDrumsC-008.wav",
+      "CachePath": "SFX/MM/Foundry/Percussion/MM_88FoundryDrumsC-008_D79FB2B7.wem"
+     },
+     {
+      "Id": "819076458",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "460_Ranchero_S2.wav",
+      "CachePath": "SFX/460_Ranchero_S2_10C4C929.wem"
+     },
+     {
+      "Id": "821861200",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ASFX_Bubbles-004.wav",
+      "CachePath": "SFX/ASFX_Bubbles-004_7D6FD89E.wem"
+     },
+     {
+      "Id": "826226574",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ASFX_Bubbles-003.wav",
+      "CachePath": "SFX/ASFX_Bubbles-003_7D6FD89E.wem"
+     },
+     {
+      "Id": "851333666",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LSFX_Swoosh-001.wav",
+      "CachePath": "SFX/LSFX_Swoosh-001_10C4C929.wem"
+     },
+     {
+      "Id": "853046747",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Guitar\\MM_88FoundryRhythmV-002.wav",
+      "CachePath": "SFX/MM/Foundry/Guitar/MM_88FoundryRhythmV-002_D79FB2B7.wem"
+     },
+     {
+      "Id": "853208934",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Percussion\\MM_88FoundryDrumsC-006.wav",
+      "CachePath": "SFX/MM/Foundry/Percussion/MM_88FoundryDrumsC-006_D79FB2B7.wem"
+     },
+     {
+      "Id": "855692908",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM_88FoundryDrumV.wav",
+      "CachePath": "SFX/MM_88FoundryDrumV_D79FB2B7.wem"
+     },
+     {
+      "Id": "897377655",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Percussion\\MM_88FoundryDrumsC.wav",
+      "CachePath": "SFX/MM/Foundry/Percussion/MM_88FoundryDrumsC_D79FB2B7.wem"
+     },
+     {
+      "Id": "905360403",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Bass\\MM_88FoundryBassC.wav",
+      "CachePath": "SFX/MM/Foundry/Bass/MM_88FoundryBassC_D79FB2B7.wem"
+     },
+     {
+      "Id": "940346507",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Percussion\\MM_88FoundryDrumsC-004.wav",
+      "CachePath": "SFX/MM/Foundry/Percussion/MM_88FoundryDrumsC-004_D79FB2B7.wem"
+     },
+     {
+      "Id": "970662213",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM_88FoundryDrumV-005.wav",
+      "CachePath": "SFX/MM_88FoundryDrumV-005_D79FB2B7.wem"
+     },
+     {
+      "Id": "971346644",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PSFX_HoverBoostStart.wav",
+      "CachePath": "SFX/PSFX_HoverBoostStart_0D21A42A.wem"
+     },
+     {
+      "Id": "974738524",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Guitar\\MM_88FoundryRhythmC-002.wav",
+      "CachePath": "SFX/MM/Foundry/Guitar/MM_88FoundryRhythmC-002_D79FB2B7.wem"
+     },
+     {
+      "Id": "981318632",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LSFX_Swoosh-003.wav",
+      "CachePath": "SFX/LSFX_Swoosh-003_10C4C929.wem"
+     },
+     {
+      "Id": "991118177",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LSFX_Pour-002.wav",
+      "CachePath": "SFX/LSFX_Pour-002_10C4C929.wem"
+     },
+     {
+      "Id": "995103302",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ASFX_ChainBelt-002.wav",
+      "CachePath": "SFX/ASFX_ChainBelt-002_10C4C929.wem"
+     },
+     {
+      "Id": "997484261",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM_88FoundryDrumV-003.wav",
+      "CachePath": "SFX/MM_88FoundryDrumV-003_D79FB2B7.wem"
+     },
+     {
+      "Id": "1005912791",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Bass\\MM_88FoundryBassV-007.wav",
+      "CachePath": "SFX/MM/Foundry/Bass/MM_88FoundryBassV-007_D79FB2B7.wem"
+     },
+     {
+      "Id": "1016273223",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MM\\Foundry\\Percussion\\MM_88FoundryDrumsC-007.wav",
+      "CachePath": "SFX/MM/Foundry/Percussion/MM_88FoundryDrumsC-007_D79FB2B7.wem"
+     },
      {
       "Id": "1022834912",
       "Language": "SFX",
@@ -25,6 +641,326 @@
      }
     ],
     "Events": [
+     {
+      "Id": "2389703494",
+      "Name": "Boost",
+      "ObjectPath": "\\Events\\Default Work Unit\\PSFX\\Boost",
+      "GUID": "{C1155C48-8ED0-4104-A7BC-83C9DEBEF8BD}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "183298595"
+       },
+       {
+        "Id": "971346644"
+       }
+      ]
+     },
+     {
+      "Id": "3770659685",
+      "Name": "BoostEnd",
+      "ObjectPath": "\\Events\\Default Work Unit\\PSFX\\BoostEnd",
+      "GUID": "{1FEE8A5B-E52A-4CCF-A898-49293F93BA1A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.82",
+      "DurationMax": "0.82",
+      "MediaRefs": [
+       {
+        "Id": "180307444"
+       }
+      ]
+     },
+     {
+      "Id": "769541046",
+      "Name": "Bubbles",
+      "ObjectPath": "\\Events\\Default Work Unit\\ASFX\\Bubbles",
+      "GUID": "{D2FF3B82-46AB-45B3-9303-FEE686E9B85D}",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "181267018"
+       },
+       {
+        "Id": "213291517"
+       },
+       {
+        "Id": "355988937"
+       },
+       {
+        "Id": "507088917"
+       },
+       {
+        "Id": "508764291"
+       },
+       {
+        "Id": "551092016"
+       },
+       {
+        "Id": "617394508"
+       },
+       {
+        "Id": "753751023"
+       },
+       {
+        "Id": "821861200"
+       },
+       {
+        "Id": "826226574"
+       }
+      ]
+     },
+     {
+      "Id": "549854047",
+      "Name": "ChainBelt",
+      "ObjectPath": "\\Events\\Default Work Unit\\ASFX\\ChainBelt",
+      "GUID": "{4DCCF057-969B-46CB-9C33-404EFE8D62B3}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.2578912",
+      "DurationMax": "3.2578912",
+      "MediaRefs": [
+       {
+        "Id": "60650882"
+       },
+       {
+        "Id": "91182826"
+       },
+       {
+        "Id": "170432043"
+       },
+       {
+        "Id": "248392620"
+       },
+       {
+        "Id": "361132103"
+       },
+       {
+        "Id": "445880534"
+       },
+       {
+        "Id": "995103302"
+       }
+      ]
+     },
+     {
+      "Id": "1467238020",
+      "Name": "HoverForward",
+      "ObjectPath": "\\Events\\Default Work Unit\\PSFX\\HoverForward",
+      "GUID": "{F9F509A0-DDD6-480B-A1D7-DABEF143DDC2}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "663060546"
+       }
+      ]
+     },
+     {
+      "Id": "1790203263",
+      "Name": "HoverIdle",
+      "ObjectPath": "\\Events\\Default Work Unit\\PSFX\\HoverIdle",
+      "GUID": "{1243EB93-8E84-4293-87A8-436A01FF92E4}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "111330509"
+       },
+       {
+        "Id": "819076458"
+       }
+      ]
+     },
+     {
+      "Id": "711872166",
+      "Name": "PlayFoundry",
+      "ObjectPath": "\\Events\\Default Work Unit\\MM\\PlayFoundry",
+      "GUID": "{38238178-DFF7-4ACE-BD82-F31EC0C1A487}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "36962053"
+       },
+       {
+        "Id": "44331646"
+       },
+       {
+        "Id": "52941783"
+       },
+       {
+        "Id": "64891248"
+       },
+       {
+        "Id": "76936234"
+       },
+       {
+        "Id": "88482176"
+       },
+       {
+        "Id": "110768401"
+       },
+       {
+        "Id": "135258128"
+       },
+       {
+        "Id": "237263188"
+       },
+       {
+        "Id": "247539338"
+       },
+       {
+        "Id": "267311208"
+       },
+       {
+        "Id": "279819401"
+       },
+       {
+        "Id": "297580662"
+       },
+       {
+        "Id": "336076467"
+       },
+       {
+        "Id": "343876015"
+       },
+       {
+        "Id": "353573486"
+       },
+       {
+        "Id": "406692048"
+       },
+       {
+        "Id": "519038006"
+       },
+       {
+        "Id": "617270563"
+       },
+       {
+        "Id": "624489492"
+       },
+       {
+        "Id": "626107509"
+       },
+       {
+        "Id": "680624172"
+       },
+       {
+        "Id": "700929131"
+       },
+       {
+        "Id": "719093084"
+       },
+       {
+        "Id": "760168400"
+       },
+       {
+        "Id": "782783625"
+       },
+       {
+        "Id": "783917856"
+       },
+       {
+        "Id": "809939881"
+       },
+       {
+        "Id": "853046747"
+       },
+       {
+        "Id": "853208934"
+       },
+       {
+        "Id": "855692908"
+       },
+       {
+        "Id": "897377655"
+       },
+       {
+        "Id": "905360403"
+       },
+       {
+        "Id": "940346507"
+       },
+       {
+        "Id": "970662213"
+       },
+       {
+        "Id": "974738524"
+       },
+       {
+        "Id": "997484261"
+       },
+       {
+        "Id": "1005912791"
+       },
+       {
+        "Id": "1016273223"
+       }
+      ]
+     },
+     {
+      "Id": "1591902251",
+      "Name": "Pour",
+      "ObjectPath": "\\Events\\Default Work Unit\\LSFX\\Pour",
+      "GUID": "{B76A02A2-EE52-48CF-A8ED-5C38CEF8CE8E}",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "18839167"
+       },
+       {
+        "Id": "106193446"
+       },
+       {
+        "Id": "240334999"
+       },
+       {
+        "Id": "361530650"
+       },
+       {
+        "Id": "483673648"
+       },
+       {
+        "Id": "526050004"
+       },
+       {
+        "Id": "991118177"
+       }
+      ]
+     },
+     {
+      "Id": "751805364",
+      "Name": "Swoosh",
+      "ObjectPath": "\\Events\\Default Work Unit\\LSFX\\Swoosh",
+      "GUID": "{1F514A8E-13BA-4C38-BC81-FCD7AA0D130C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5",
+      "DurationMax": "0.5",
+      "MediaRefs": [
+       {
+        "Id": "95314076"
+       },
+       {
+        "Id": "158121961"
+       },
+       {
+        "Id": "210871674"
+       },
+       {
+        "Id": "287764070"
+       },
+       {
+        "Id": "436573391"
+       },
+       {
+        "Id": "769852809"
+       },
+       {
+        "Id": "851333666"
+       },
+       {
+        "Id": "981318632"
+       }
+      ]
+     },
      {
       "Id": "1097980931",
       "Name": "TestEvent",
@@ -37,9 +973,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1493153371",
+      "Name": "PlayerSpeed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerSpeed",
+      "GUID": "{B7943A3F-E049-4B26-9A89-20837E39CB99}"
+     }
     ]
    }
   ],
-  "FileHash": "{DCBDC5B7-DCD9-B360-DEE4-5C67082651C3}"
+  "FileHash": "{871B9E90-5656-4EF5-92DF-D31C8EDB6766}"
  }
 }
