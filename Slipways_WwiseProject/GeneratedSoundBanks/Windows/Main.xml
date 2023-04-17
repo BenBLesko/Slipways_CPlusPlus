@@ -1,24 +1,448 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{FB2EDB54-3CFD-4077-ABC3-8E90FCA9E6C1}" Language="SFX" Hash="{1F9D2553-4299-4D5A-4818-1CA3FDB7D019}">
+		<SoundBank Id="3161908922" Type="User" GUID="{FB2EDB54-3CFD-4077-ABC3-8E90FCA9E6C1}" Language="SFX" Hash="{AC199F89-18FA-A8DA-7D1F-DFCA30A8163B}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="18839167" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LSFX_Pour-003.wav</ShortName>
+					<CachePath>SFX/LSFX_Pour-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="36962053" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Percussion\MM_88FoundryDrumsC-005.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Percussion/MM_88FoundryDrumsC-005_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="44331646" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM_88FoundryDrumV-001.wav</ShortName>
+					<CachePath>SFX/MM_88FoundryDrumV-001_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="52941783" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Bass\MM_88FoundryBassV-004.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Bass/MM_88FoundryBassV-004_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="60650882" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ASFX_ChainBelt-001.wav</ShortName>
+					<CachePath>SFX/ASFX_ChainBelt-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="64891248" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Guitar\MM_88FoundryRhythmC-001.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Guitar/MM_88FoundryRhythmC-001_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="76936234" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Bass\MM_88FoundryBassV.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Bass/MM_88FoundryBassV_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="88482176" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM_88FoundryDrumV-002.wav</ShortName>
+					<CachePath>SFX/MM_88FoundryDrumV-002_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="91182826" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ASFX_ChainBelt-004.wav</ShortName>
+					<CachePath>SFX/ASFX_ChainBelt-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="95314076" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LSFX_Swoosh-005.wav</ShortName>
+					<CachePath>SFX/LSFX_Swoosh-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="106193446" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LSFX_Pour-005.wav</ShortName>
+					<CachePath>SFX/LSFX_Pour-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="110768401" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Guitar\MM_88FoundryRhythmV-003.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Guitar/MM_88FoundryRhythmV-003_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="111330509" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>460_Ranchero_S1.wav</ShortName>
+					<CachePath>SFX/460_Ranchero_S1_31E06DA1.wem</CachePath>
+				</File>
+				<File Id="135258128" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Bass\MM_88FoundryBassV-006.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Bass/MM_88FoundryBassV-006_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="158121961" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LSFX_Swoosh.wav</ShortName>
+					<CachePath>SFX/LSFX_Swoosh_10C4C929.wem</CachePath>
+				</File>
+				<File Id="170432043" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ASFX_ChainBelt.wav</ShortName>
+					<CachePath>SFX/ASFX_ChainBelt_10C4C929.wem</CachePath>
+				</File>
+				<File Id="180307444" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PSFX_HoverBoostEnd.wav</ShortName>
+					<CachePath>SFX/PSFX_HoverBoostEnd_E81A20E1.wem</CachePath>
+				</File>
+				<File Id="181267018" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ASFX_Bubbles-006.wav</ShortName>
+					<CachePath>SFX/ASFX_Bubbles-006_45245E50.wem</CachePath>
+				</File>
+				<File Id="183298595" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PSFX_HoverBoostLoop.wav</ShortName>
+					<CachePath>SFX/PSFX_HoverBoostLoop_ABF466E1.wem</CachePath>
+				</File>
+				<File Id="210871674" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LSFX_Swoosh-006.wav</ShortName>
+					<CachePath>SFX/LSFX_Swoosh-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="213291517" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ASFX_Bubbles-007.wav</ShortName>
+					<CachePath>SFX/ASFX_Bubbles-007_45245E50.wem</CachePath>
+				</File>
+				<File Id="237263188" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Bass\MM_88FoundryBassV-001.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Bass/MM_88FoundryBassV-001_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="240334999" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LSFX_Pour-004.wav</ShortName>
+					<CachePath>SFX/LSFX_Pour-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="247539338" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Bass\MM_88FoundryBassV-005.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Bass/MM_88FoundryBassV-005_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="248392620" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ASFX_ChainBelt-003.wav</ShortName>
+					<CachePath>SFX/ASFX_ChainBelt-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="267311208" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM_88FoundryDrumV-006.wav</ShortName>
+					<CachePath>SFX/MM_88FoundryDrumV-006_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="279819401" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Bass\MM_88FoundryBassC-004.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Bass/MM_88FoundryBassC-004_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="287764070" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LSFX_Swoosh-004.wav</ShortName>
+					<CachePath>SFX/LSFX_Swoosh-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="297580662" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Bass\MM_88FoundryBassC-005.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Bass/MM_88FoundryBassC-005_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="336076467" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Percussion\MM_88FoundryDrumsC-003.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Percussion/MM_88FoundryDrumsC-003_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="343876015" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Bass\MM_88FoundryBassC-001.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Bass/MM_88FoundryBassC-001_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="353573486" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Guitar\MM_88FoundryRhythmV-004.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Guitar/MM_88FoundryRhythmV-004_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="355988937" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ASFX_Bubbles-005.wav</ShortName>
+					<CachePath>SFX/ASFX_Bubbles-005_45245E50.wem</CachePath>
+				</File>
+				<File Id="361132103" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ASFX_ChainBelt-006.wav</ShortName>
+					<CachePath>SFX/ASFX_ChainBelt-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="361530650" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LSFX_Pour-001.wav</ShortName>
+					<CachePath>SFX/LSFX_Pour-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="406692048" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Guitar\MM_88FoundryRhythmC.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Guitar/MM_88FoundryRhythmC_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="436573391" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LSFX_Swoosh-007.wav</ShortName>
+					<CachePath>SFX/LSFX_Swoosh-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="445880534" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ASFX_ChainBelt-005.wav</ShortName>
+					<CachePath>SFX/ASFX_ChainBelt-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="483673648" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LSFX_Pour.wav</ShortName>
+					<CachePath>SFX/LSFX_Pour_10C4C929.wem</CachePath>
+				</File>
+				<File Id="507088917" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ASFX_Bubbles-001.wav</ShortName>
+					<CachePath>SFX/ASFX_Bubbles-001_E6771ADD.wem</CachePath>
+				</File>
+				<File Id="508764291" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ASFX_Bubbles-008.wav</ShortName>
+					<CachePath>SFX/ASFX_Bubbles-008_45245E50.wem</CachePath>
+				</File>
+				<File Id="519038006" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Guitar\MM_88FoundryRhythmV-001.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Guitar/MM_88FoundryRhythmV-001_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="526050004" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LSFX_Pour-006.wav</ShortName>
+					<CachePath>SFX/LSFX_Pour-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="551092016" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ASFX_Bubbles-009.wav</ShortName>
+					<CachePath>SFX/ASFX_Bubbles-009_45245E50.wem</CachePath>
+				</File>
+				<File Id="617270563" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Percussion\MM_88FoundryDrumsC-002.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Percussion/MM_88FoundryDrumsC-002_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="617394508" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ASFX_Bubbles-002.wav</ShortName>
+					<CachePath>SFX/ASFX_Bubbles-002_4F6A65E8.wem</CachePath>
+				</File>
+				<File Id="624489492" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Bass\MM_88FoundryBassC-003.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Bass/MM_88FoundryBassC-003_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="626107509" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Guitar\MM_88FoundryRhythmV.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Guitar/MM_88FoundryRhythmV_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="663060546" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PSFX_HoverForward.wav</ShortName>
+					<CachePath>SFX/PSFX_HoverForward_C15F094B.wem</CachePath>
+				</File>
+				<File Id="680624172" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Bass\MM_88FoundryBassV-003.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Bass/MM_88FoundryBassV-003_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="700929131" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM_88FoundryDrumV-004.wav</ShortName>
+					<CachePath>SFX/MM_88FoundryDrumV-004_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="719093084" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Bass\MM_88FoundryBassV-002.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Bass/MM_88FoundryBassV-002_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="753751023" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ASFX_Bubbles.wav</ShortName>
+					<CachePath>SFX/ASFX_Bubbles_1997D19C.wem</CachePath>
+				</File>
+				<File Id="760168400" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Percussion\MM_88FoundryPercSamp.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Percussion/MM_88FoundryPercSamp_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="769852809" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LSFX_Swoosh-002.wav</ShortName>
+					<CachePath>SFX/LSFX_Swoosh-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="782783625" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Percussion\MM_88FoundryDrumsC-001.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Percussion/MM_88FoundryDrumsC-001_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="783917856" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Bass\MM_88FoundryBassC-002.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Bass/MM_88FoundryBassC-002_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="809939881" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Percussion\MM_88FoundryDrumsC-008.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Percussion/MM_88FoundryDrumsC-008_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="819076458" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>460_Ranchero_S2.wav</ShortName>
+					<CachePath>SFX/460_Ranchero_S2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="821861200" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ASFX_Bubbles-004.wav</ShortName>
+					<CachePath>SFX/ASFX_Bubbles-004_7D6FD89E.wem</CachePath>
+				</File>
+				<File Id="826226574" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ASFX_Bubbles-003.wav</ShortName>
+					<CachePath>SFX/ASFX_Bubbles-003_7D6FD89E.wem</CachePath>
+				</File>
+				<File Id="851333666" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LSFX_Swoosh-001.wav</ShortName>
+					<CachePath>SFX/LSFX_Swoosh-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="853046747" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Guitar\MM_88FoundryRhythmV-002.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Guitar/MM_88FoundryRhythmV-002_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="853208934" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Percussion\MM_88FoundryDrumsC-006.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Percussion/MM_88FoundryDrumsC-006_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="855692908" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM_88FoundryDrumV.wav</ShortName>
+					<CachePath>SFX/MM_88FoundryDrumV_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="897377655" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Percussion\MM_88FoundryDrumsC.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Percussion/MM_88FoundryDrumsC_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="905360403" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Bass\MM_88FoundryBassC.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Bass/MM_88FoundryBassC_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="940346507" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Percussion\MM_88FoundryDrumsC-004.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Percussion/MM_88FoundryDrumsC-004_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="970662213" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM_88FoundryDrumV-005.wav</ShortName>
+					<CachePath>SFX/MM_88FoundryDrumV-005_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="971346644" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PSFX_HoverBoostStart.wav</ShortName>
+					<CachePath>SFX/PSFX_HoverBoostStart_0D21A42A.wem</CachePath>
+				</File>
+				<File Id="974738524" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Guitar\MM_88FoundryRhythmC-002.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Guitar/MM_88FoundryRhythmC-002_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="981318632" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LSFX_Swoosh-003.wav</ShortName>
+					<CachePath>SFX/LSFX_Swoosh-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="991118177" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LSFX_Pour-002.wav</ShortName>
+					<CachePath>SFX/LSFX_Pour-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="995103302" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ASFX_ChainBelt-002.wav</ShortName>
+					<CachePath>SFX/ASFX_ChainBelt-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="997484261" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM_88FoundryDrumV-003.wav</ShortName>
+					<CachePath>SFX/MM_88FoundryDrumV-003_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1005912791" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Bass\MM_88FoundryBassV-007.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Bass/MM_88FoundryBassV-007_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1016273223" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MM\Foundry\Percussion\MM_88FoundryDrumsC-007.wav</ShortName>
+					<CachePath>SFX/MM/Foundry/Percussion/MM_88FoundryDrumsC-007_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="1022834912" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Aiyaio..wav</ShortName>
 					<CachePath>SFX/Aiyaio._D79FB2B7.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
+				<Event Id="2389703494" Name="Boost" ObjectPath="\Events\Default Work Unit\PSFX\Boost" GUID="{C1155C48-8ED0-4104-A7BC-83C9DEBEF8BD}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="183298595"/>
+						<MediaRef Id="971346644"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3770659685" Name="BoostEnd" ObjectPath="\Events\Default Work Unit\PSFX\BoostEnd" GUID="{1FEE8A5B-E52A-4CCF-A898-49293F93BA1A}" DurationType="OneShot" DurationMin="0.82" DurationMax="0.82">
+					<MediaRefs>
+						<MediaRef Id="180307444"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="769541046" Name="Bubbles" ObjectPath="\Events\Default Work Unit\ASFX\Bubbles" GUID="{D2FF3B82-46AB-45B3-9303-FEE686E9B85D}" MaxAttenuation="1000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="181267018"/>
+						<MediaRef Id="213291517"/>
+						<MediaRef Id="355988937"/>
+						<MediaRef Id="507088917"/>
+						<MediaRef Id="508764291"/>
+						<MediaRef Id="551092016"/>
+						<MediaRef Id="617394508"/>
+						<MediaRef Id="753751023"/>
+						<MediaRef Id="821861200"/>
+						<MediaRef Id="826226574"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="549854047" Name="ChainBelt" ObjectPath="\Events\Default Work Unit\ASFX\ChainBelt" GUID="{4DCCF057-969B-46CB-9C33-404EFE8D62B3}" DurationType="OneShot" DurationMin="3.2578912" DurationMax="3.2578912">
+					<MediaRefs>
+						<MediaRef Id="60650882"/>
+						<MediaRef Id="91182826"/>
+						<MediaRef Id="170432043"/>
+						<MediaRef Id="248392620"/>
+						<MediaRef Id="361132103"/>
+						<MediaRef Id="445880534"/>
+						<MediaRef Id="995103302"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1467238020" Name="HoverForward" ObjectPath="\Events\Default Work Unit\PSFX\HoverForward" GUID="{F9F509A0-DDD6-480B-A1D7-DABEF143DDC2}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="663060546"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1790203263" Name="HoverIdle" ObjectPath="\Events\Default Work Unit\PSFX\HoverIdle" GUID="{1243EB93-8E84-4293-87A8-436A01FF92E4}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="111330509"/>
+						<MediaRef Id="819076458"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="711872166" Name="PlayFoundry" ObjectPath="\Events\Default Work Unit\MM\PlayFoundry" GUID="{38238178-DFF7-4ACE-BD82-F31EC0C1A487}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="36962053"/>
+						<MediaRef Id="44331646"/>
+						<MediaRef Id="52941783"/>
+						<MediaRef Id="64891248"/>
+						<MediaRef Id="76936234"/>
+						<MediaRef Id="88482176"/>
+						<MediaRef Id="110768401"/>
+						<MediaRef Id="135258128"/>
+						<MediaRef Id="237263188"/>
+						<MediaRef Id="247539338"/>
+						<MediaRef Id="267311208"/>
+						<MediaRef Id="279819401"/>
+						<MediaRef Id="297580662"/>
+						<MediaRef Id="336076467"/>
+						<MediaRef Id="343876015"/>
+						<MediaRef Id="353573486"/>
+						<MediaRef Id="406692048"/>
+						<MediaRef Id="519038006"/>
+						<MediaRef Id="617270563"/>
+						<MediaRef Id="624489492"/>
+						<MediaRef Id="626107509"/>
+						<MediaRef Id="680624172"/>
+						<MediaRef Id="700929131"/>
+						<MediaRef Id="719093084"/>
+						<MediaRef Id="760168400"/>
+						<MediaRef Id="782783625"/>
+						<MediaRef Id="783917856"/>
+						<MediaRef Id="809939881"/>
+						<MediaRef Id="853046747"/>
+						<MediaRef Id="853208934"/>
+						<MediaRef Id="855692908"/>
+						<MediaRef Id="897377655"/>
+						<MediaRef Id="905360403"/>
+						<MediaRef Id="940346507"/>
+						<MediaRef Id="970662213"/>
+						<MediaRef Id="974738524"/>
+						<MediaRef Id="997484261"/>
+						<MediaRef Id="1005912791"/>
+						<MediaRef Id="1016273223"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1591902251" Name="Pour" ObjectPath="\Events\Default Work Unit\LSFX\Pour" GUID="{B76A02A2-EE52-48CF-A8ED-5C38CEF8CE8E}" MaxAttenuation="1000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="18839167"/>
+						<MediaRef Id="106193446"/>
+						<MediaRef Id="240334999"/>
+						<MediaRef Id="361530650"/>
+						<MediaRef Id="483673648"/>
+						<MediaRef Id="526050004"/>
+						<MediaRef Id="991118177"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="751805364" Name="Swoosh" ObjectPath="\Events\Default Work Unit\LSFX\Swoosh" GUID="{1F514A8E-13BA-4C38-BC81-FCD7AA0D130C}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="95314076"/>
+						<MediaRef Id="158121961"/>
+						<MediaRef Id="210871674"/>
+						<MediaRef Id="287764070"/>
+						<MediaRef Id="436573391"/>
+						<MediaRef Id="769852809"/>
+						<MediaRef Id="851333666"/>
+						<MediaRef Id="981318632"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1097980931" Name="TestEvent" ObjectPath="\Events\Default Work Unit\TestEvent" GUID="{41B8F2CD-4FB9-4195-90A2-DEC7F273E9EF}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1022834912"/>
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="1493153371" Name="PlayerSpeed" ObjectPath="\Game Parameters\Default Work Unit\PlayerSpeed" GUID="{B7943A3F-E049-4B26-9A89-20837E39CB99}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{586BF561-4FCD-00CA-8FC0-20639222760D}</FileHash>
+	<FileHash>{6CEB7E3A-F019-F26F-EC56-F077CE9954B1}</FileHash>
 </SoundBanksInfo>
