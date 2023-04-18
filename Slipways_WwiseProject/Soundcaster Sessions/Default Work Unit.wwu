@@ -1,6 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3BED722C-3F25-4938-8E90-A6C4772B64D6}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{3BED722C-3F25-4938-8E90-A6C4772B64D6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3BED722C-3F25-4938-8E90-A6C4772B64D6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="MainSoundCasterSession" ID="{EC5E93F8-3D2E-4CBB-9566-578222C021DE}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PSFX_HoverBoost" ID="{F3741018-96C6-47A2-B0E2-8F1845EF5FA7}" WorkUnitID="{883E61F6-42E7-44D4-A5AB-6BD39E9A09D7}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PSFX_HoverForward" ID="{8417383D-CAC7-4762-8E37-02912223AB71}" WorkUnitID="{883E61F6-42E7-44D4-A5AB-6BD39E9A09D7}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PSFX_HoverIdle" ID="{008963F5-094F-4B52-8267-72BB90090467}" WorkUnitID="{883E61F6-42E7-44D4-A5AB-6BD39E9A09D7}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PSFX_GrindLoop" ID="{FBE347D7-DF8B-4A1F-B7CA-8DE03F502B0B}" WorkUnitID="{883E61F6-42E7-44D4-A5AB-6BD39E9A09D7}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="LSFX_Pour" ID="{9EEA3D18-765F-474F-8619-29699FBCBBE1}" WorkUnitID="{883E61F6-42E7-44D4-A5AB-6BD39E9A09D7}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="LSFX_Swoosh" ID="{BD54B10C-972D-43A9-8574-A3CD1D66C120}" WorkUnitID="{883E61F6-42E7-44D4-A5AB-6BD39E9A09D7}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ASFX_Bubbles" ID="{99C65D58-43B4-4D59-88DD-DD219F990982}" WorkUnitID="{883E61F6-42E7-44D4-A5AB-6BD39E9A09D7}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ASFX_ChainBelt" ID="{5C328AF0-2B3B-412A-91FE-1D4CEFB19152}" WorkUnitID="{883E61F6-42E7-44D4-A5AB-6BD39E9A09D7}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="88Foundry" ID="{2767562F-0486-46E7-89C8-5657E51C6AA6}" WorkUnitID="{88991FA0-193E-40B5-8C2A-A0E9610DB272}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Boost" ID="{C1155C48-8ED0-4104-A7BC-83C9DEBEF8BD}" WorkUnitID="{C14D1F42-EB7E-472C-AAD3-D5EF00C36694}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayFoundry" ID="{38238178-DFF7-4ACE-BD82-F31EC0C1A487}" WorkUnitID="{C14D1F42-EB7E-472C-AAD3-D5EF00C36694}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="BoostEnd" ID="{1FEE8A5B-E52A-4CCF-A898-49293F93BA1A}" WorkUnitID="{C14D1F42-EB7E-472C-AAD3-D5EF00C36694}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="PlayerHeight" ID="{4A7E4FE7-6C7B-4A50-B933-B85BB4461836}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PlayerSpeed" ID="{B7943A3F-E049-4B26-9A89-20837E39CB99}"/>
+							<Value>1.21204926560736E-311</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
