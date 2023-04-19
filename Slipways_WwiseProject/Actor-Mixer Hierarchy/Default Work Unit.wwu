@@ -53,7 +53,7 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-25</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -62,7 +62,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6EF6989A-57B2-4698-A525-04C796C19F4F}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
+									<ObjectRef Name="PSFX" ID="{09A92724-3168-4563-A7B4-72D495E8CD09}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -117,6 +117,42 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="IsOnLava" ID="{A786015F-51BD-49A2-AEF9-DBBAD24A6B2A}"/>
+									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="IsOnGround" ID="{0B4CB037-D1B9-41DB-B427-069ADF176563}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="OnGround" ID="{DCAD17B7-0212-4325-B149-651812565250}"/>
+										<CustomState Name="" ID="{A8C8B833-7441-43CF-86C1-AF51917AA2AC}" ShortID="835319372"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="OffGround" ID="{F5CFBBD7-8A4C-44A3-8B37-E640A3258E08}"/>
+										<CustomState Name="" ID="{D846274E-BA60-40A5-A55E-799657560D41}" ShortID="51221976">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="35"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="OnLava" ID="{71D618B3-7230-44C4-8284-4160FD60EE41}"/>
+										<CustomState Name="" ID="{27A0B1E1-7693-46D5-AD6A-740C56F347FC}" ShortID="204845216"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="OffLava" ID="{34AD9346-1F03-4DE6-B735-C9F3A7FD36FF}"/>
+										<CustomState Name="" ID="{521B7D0B-D570-4DE5-8BC0-32C93A9B8DAC}" ShortID="629569221">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-10"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
 									<Reference>
@@ -173,7 +209,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6EF6989A-57B2-4698-A525-04C796C19F4F}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
+											<ObjectRef Name="PSFX" ID="{09A92724-3168-4563-A7B4-72D495E8CD09}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -327,7 +363,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6EF6989A-57B2-4698-A525-04C796C19F4F}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
+											<ObjectRef Name="PSFX" ID="{09A92724-3168-4563-A7B4-72D495E8CD09}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -418,6 +454,28 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="IsOnGround" ID="{0B4CB037-D1B9-41DB-B427-069ADF176563}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="OnGround" ID="{DCAD17B7-0212-4325-B149-651812565250}"/>
+										<CustomState Name="" ID="{05CA42A4-6767-4B80-A6FA-143D4DA63C5D}" ShortID="694552154"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="OffGround" ID="{F5CFBBD7-8A4C-44A3-8B37-E640A3258E08}"/>
+										<CustomState Name="" ID="{F6106072-BA3C-4291-B3FE-EBF0BD929CF6}" ShortID="831787802">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16" Value="-1"/>
+												<Property Name="Lowpass" Type="int16" Value="32"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
 									<Reference>
@@ -472,7 +530,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6EF6989A-57B2-4698-A525-04C796C19F4F}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
+									<ObjectRef Name="PSFX" ID="{09A92724-3168-4563-A7B4-72D495E8CD09}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -671,7 +729,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6EF6989A-57B2-4698-A525-04C796C19F4F}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
+									<ObjectRef Name="LSFX" ID="{E415950B-6F72-46AF-83F0-061E8C84DB9B}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -844,7 +902,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6EF6989A-57B2-4698-A525-04C796C19F4F}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
+									<ObjectRef Name="LSFX" ID="{E415950B-6F72-46AF-83F0-061E8C84DB9B}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1122,7 +1180,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6EF6989A-57B2-4698-A525-04C796C19F4F}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
+									<ObjectRef Name="ASFX" ID="{8A698782-28D5-47E7-8CC5-3ECA561D51AE}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1389,6 +1447,27 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="IsOnLava" ID="{A786015F-51BD-49A2-AEF9-DBBAD24A6B2A}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="OnLava" ID="{71D618B3-7230-44C4-8284-4160FD60EE41}"/>
+										<CustomState Name="" ID="{90081F2F-13BE-4486-9CE8-58F44EF274F5}" ShortID="407768165"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="OffLava" ID="{34AD9346-1F03-4DE6-B735-C9F3A7FD36FF}"/>
+										<CustomState Name="" ID="{AD2F1008-0F77-48D9-9485-3F3D4C14DB19}" ShortID="814456895">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-7"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="ASFX_ChainBelt" ID="{5C328AF0-2B3B-412A-91FE-1D4CEFB19152}" ShortID="344661084">
 							<ReferenceList>
@@ -1396,7 +1475,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6EF6989A-57B2-4698-A525-04C796C19F4F}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
+									<ObjectRef Name="ASFX" ID="{8A698782-28D5-47E7-8CC5-3ECA561D51AE}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
