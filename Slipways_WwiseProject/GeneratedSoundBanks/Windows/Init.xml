@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{5C14E306-4946-0D1C-B4AB-4185B10E2A61}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{37483AB6-FEC0-F987-8F8E-1CAC3F93364B}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -12,13 +12,33 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="274816960" Name="LSFX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LSFX" GUID="{E415950B-6F72-46AF-83F0-061E8C84DB9B}"/>
+				<Bus Id="1540877884" Name="PSFX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\PSFX" GUID="{09A92724-3168-4563-A7B4-72D495E8CD09}"/>
+				<Bus Id="1685527067" Name="MM" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MM" GUID="{37627254-0A08-4EAC-8DE2-3909DBBB8F82}"/>
+				<Bus Id="3199838831" Name="ASFX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ASFX" GUID="{8A698782-28D5-47E7-8CC5-3ECA561D51AE}"/>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 			<GameParameters>
 				<GameParameter Id="1493153371" Name="PlayerSpeed" ObjectPath="\Game Parameters\Default Work Unit\PlayerSpeed" GUID="{B7943A3F-E049-4B26-9A89-20837E39CB99}"/>
 				<GameParameter Id="2243460727" Name="PlayerHeight" ObjectPath="\Game Parameters\Default Work Unit\PlayerHeight" GUID="{4A7E4FE7-6C7B-4A50-B933-B85BB4461836}"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="82473528" Name="IsOnLava" ObjectPath="\States\Default Work Unit\IsOnLava" GUID="{A786015F-51BD-49A2-AEF9-DBBAD24A6B2A}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\IsOnLava\None" GUID="{20D85916-782E-4948-8CF1-592A598801EB}"/>
+						<State Id="2380591324" Name="OnLava" ObjectPath="\States\Default Work Unit\IsOnLava\OnLava" GUID="{71D618B3-7230-44C4-8284-4160FD60EE41}"/>
+						<State Id="2431494014" Name="OffLava" ObjectPath="\States\Default Work Unit\IsOnLava\OffLava" GUID="{34AD9346-1F03-4DE6-B735-C9F3A7FD36FF}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="264200331" Name="IsOnGround" ObjectPath="\States\Default Work Unit\IsOnGround" GUID="{0B4CB037-D1B9-41DB-B427-069ADF176563}">
+					<States>
+						<State Id="223416773" Name="OffGround" ObjectPath="\States\Default Work Unit\IsOnGround\OffGround" GUID="{EFFEC573-28D8-4F6B-A62A-A20464DA3555}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\IsOnGround\None" GUID="{E6C99F9D-337C-4DA9-BDBD-1EF2D29E88ED}"/>
+						<State Id="1200033591" Name="OnGround" ObjectPath="\States\Default Work Unit\IsOnGround\OnGround" GUID="{891C088E-7878-46EF-B1A7-B2E4A39ED6CE}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FB94AB66-D662-E70E-AF45-4ED5E5B945D6}</FileHash>
+	<FileHash>{B24BD94B-5B58-BF12-A492-CAAE9B39A8CD}</FileHash>
 </SoundBanksInfo>

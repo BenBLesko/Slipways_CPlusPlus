@@ -5,16 +5,16 @@
 			<ChildrenList>
 				<StateGroup Name="IsOnLava" ID="{A786015F-51BD-49A2-AEF9-DBBAD24A6B2A}">
 					<ChildrenList>
-						<State Name="None" ID="{E6F9D450-FC7D-4DC7-AE87-430E3483359E}"/>
+						<State Name="None" ID="{20D85916-782E-4948-8CF1-592A598801EB}"/>
 						<State Name="OnLava" ID="{71D618B3-7230-44C4-8284-4160FD60EE41}"/>
 						<State Name="OffLava" ID="{34AD9346-1F03-4DE6-B735-C9F3A7FD36FF}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="IsOnGround" ID="{0B4CB037-D1B9-41DB-B427-069ADF176563}">
 					<ChildrenList>
-						<State Name="None" ID="{01F21EDC-FE01-4F8F-88DF-ED0AF6BA89BB}"/>
-						<State Name="OnGround" ID="{DCAD17B7-0212-4325-B149-651812565250}"/>
-						<State Name="OffGround" ID="{F5CFBBD7-8A4C-44A3-8B37-E640A3258E08}"/>
+						<State Name="None" ID="{E6C99F9D-337C-4DA9-BDBD-1EF2D29E88ED}"/>
+						<State Name="OffGround" ID="{EFFEC573-28D8-4F6B-A62A-A20464DA3555}"/>
+						<State Name="OnGround" ID="{891C088E-7878-46EF-B1A7-B2E4A39ED6CE}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

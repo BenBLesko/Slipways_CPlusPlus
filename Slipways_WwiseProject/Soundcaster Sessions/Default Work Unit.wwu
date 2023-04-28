@@ -69,8 +69,8 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="OnGround" ID="{DCAD17B7-0212-4325-B149-651812565250}"/>
-						<CurrentStateRef Name="OnLava" ID="{71D618B3-7230-44C4-8284-4160FD60EE41}"/>
+						<CurrentStateRef Name="OnGround" ID="{891C088E-7878-46EF-B1A7-B2E4A39ED6CE}"/>
+						<CurrentStateRef Name="OffLava" ID="{34AD9346-1F03-4DE6-B735-C9F3A7FD36FF}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
