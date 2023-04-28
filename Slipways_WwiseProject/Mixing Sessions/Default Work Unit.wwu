@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{BEDE3B92-B3D1-4FF4-949B-75B2BAF48E9E}" SchemaVersion="110">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{BEDE3B92-B3D1-4FF4-949B-75B2BAF48E9E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{BEDE3B92-B3D1-4FF4-949B-75B2BAF48E9E}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="MainMixingSession" ID="{C220D8EE-9CB3-4BC2-A35C-91E43EB6F8E1}">
+					<ObjectList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
+						<ObjectRef Name="MM" ID="{37627254-0A08-4EAC-8DE2-3909DBBB8F82}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
+						<ObjectRef Name="PSFX" ID="{09A92724-3168-4563-A7B4-72D495E8CD09}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
+						<ObjectRef Name="ASFX" ID="{8A698782-28D5-47E7-8CC5-3ECA561D51AE}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
+						<ObjectRef Name="LSFX" ID="{E415950B-6F72-46AF-83F0-061E8C84DB9B}" WorkUnitID="{FACB489F-916F-4CA0-9DC9-EB5C9AAAFC36}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>

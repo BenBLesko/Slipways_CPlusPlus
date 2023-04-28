@@ -9,6 +9,42 @@
 							<ObjectRef Name="System" ID="{00021DCA-9BB7-4B1D-8F11-C5C4F0921A63}" WorkUnitID="{B74FBEF9-446F-4F4C-9628-F9359118768F}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="PSFX" ID="{09A92724-3168-4563-A7B4-72D495E8CD09}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="IsOnGround" ID="{0B4CB037-D1B9-41DB-B427-069ADF176563}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="OnGround" ID="{DCAD17B7-0212-4325-B149-651812565250}"/>
+										<CustomState Name="" ID="{12C9B979-CCBF-4D3B-8214-02447624065D}" ShortID="105503959"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="OffGround" ID="{F5CFBBD7-8A4C-44A3-8B37-E640A3258E08}"/>
+										<CustomState Name="" ID="{362BC79E-DBAD-4BFE-ABF4-632E2CB516B7}" ShortID="969914195">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="30"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+						<Bus Name="ASFX" ID="{8A698782-28D5-47E7-8CC5-3ECA561D51AE}"/>
+						<Bus Name="LSFX" ID="{E415950B-6F72-46AF-83F0-061E8C84DB9B}"/>
+						<Bus Name="MM" ID="{37627254-0A08-4EAC-8DE2-3909DBBB8F82}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
