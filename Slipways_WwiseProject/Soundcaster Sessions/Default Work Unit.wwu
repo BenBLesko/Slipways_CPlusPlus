@@ -18,6 +18,10 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="PSFX_HoverAir" ID="{CD8EEE3F-CF79-4C05-80C5-12E809DCADE8}" WorkUnitID="{883E61F6-42E7-44D4-A5AB-6BD39E9A09D7}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="PSFX_GrindLoop" ID="{FBE347D7-DF8B-4A1F-B7CA-8DE03F502B0B}" WorkUnitID="{883E61F6-42E7-44D4-A5AB-6BD39E9A09D7}"/>
 							<Position X="0" Y="4"/>
 						</Module>
@@ -61,10 +65,13 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="PlayerSpeed" ID="{B7943A3F-E049-4B26-9A89-20837E39CB99}"/>
-							<Value>1.21204926560736E-311</Value>
+							<Value>120</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="OnGround" ID="{891C088E-7878-46EF-B1A7-B2E4A39ED6CE}"/>
+						<CurrentStateRef Name="OffLava" ID="{34AD9346-1F03-4DE6-B735-C9F3A7FD36FF}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>

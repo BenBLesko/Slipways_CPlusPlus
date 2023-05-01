@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{5C14E306-4946-0D1C-B4AB-4185B10E2A61}",
+    "Hash": "{37483AB6-FEC0-F987-8F8E-1CAC3F93364B}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -36,6 +36,30 @@
     },
     "Busses": [
      {
+      "Id": "274816960",
+      "Name": "LSFX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\LSFX",
+      "GUID": "{E415950B-6F72-46AF-83F0-061E8C84DB9B}"
+     },
+     {
+      "Id": "1540877884",
+      "Name": "PSFX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\PSFX",
+      "GUID": "{09A92724-3168-4563-A7B4-72D495E8CD09}"
+     },
+     {
+      "Id": "1685527067",
+      "Name": "MM",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MM",
+      "GUID": "{37627254-0A08-4EAC-8DE2-3909DBBB8F82}"
+     },
+     {
+      "Id": "3199838831",
+      "Name": "ASFX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\ASFX",
+      "GUID": "{8A698782-28D5-47E7-8CC5-3ECA561D51AE}"
+     },
+     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
@@ -55,9 +79,63 @@
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerHeight",
       "GUID": "{4A7E4FE7-6C7B-4A50-B933-B85BB4461836}"
      }
+    ],
+    "StateGroups": [
+     {
+      "Id": "82473528",
+      "Name": "IsOnLava",
+      "ObjectPath": "\\States\\Default Work Unit\\IsOnLava",
+      "GUID": "{A786015F-51BD-49A2-AEF9-DBBAD24A6B2A}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\IsOnLava\\None",
+        "GUID": "{20D85916-782E-4948-8CF1-592A598801EB}"
+       },
+       {
+        "Id": "2380591324",
+        "Name": "OnLava",
+        "ObjectPath": "\\States\\Default Work Unit\\IsOnLava\\OnLava",
+        "GUID": "{71D618B3-7230-44C4-8284-4160FD60EE41}"
+       },
+       {
+        "Id": "2431494014",
+        "Name": "OffLava",
+        "ObjectPath": "\\States\\Default Work Unit\\IsOnLava\\OffLava",
+        "GUID": "{34AD9346-1F03-4DE6-B735-C9F3A7FD36FF}"
+       }
+      ]
+     },
+     {
+      "Id": "264200331",
+      "Name": "IsOnGround",
+      "ObjectPath": "\\States\\Default Work Unit\\IsOnGround",
+      "GUID": "{0B4CB037-D1B9-41DB-B427-069ADF176563}",
+      "States": [
+       {
+        "Id": "223416773",
+        "Name": "OffGround",
+        "ObjectPath": "\\States\\Default Work Unit\\IsOnGround\\OffGround",
+        "GUID": "{EFFEC573-28D8-4F6B-A62A-A20464DA3555}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\IsOnGround\\None",
+        "GUID": "{E6C99F9D-337C-4DA9-BDBD-1EF2D29E88ED}"
+       },
+       {
+        "Id": "1200033591",
+        "Name": "OnGround",
+        "ObjectPath": "\\States\\Default Work Unit\\IsOnGround\\OnGround",
+        "GUID": "{891C088E-7878-46EF-B1A7-B2E4A39ED6CE}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{32AAF1A4-FAFE-AE0F-4B5F-FFF32AD5209B}"
+  "FileHash": "{C5B8A726-CF87-DE53-7808-7CC99D573463}"
  }
 }
