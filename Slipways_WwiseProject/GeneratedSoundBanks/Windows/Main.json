@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FB2EDB54-3CFD-4077-ABC3-8E90FCA9E6C1}",
     "Language": "SFX",
-    "Hash": "{AC199F89-18FA-A8DA-7D1F-DFCA30A8163B}",
+    "Hash": "{3698AC3E-628C-12F4-6D49-84A0B2ADDEB1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -294,6 +294,14 @@
       "Location": "Memory",
       "ShortName": "LSFX_Pour-001.wav",
       "CachePath": "SFX/LSFX_Pour-001_10C4C929.wem"
+     },
+     {
+      "Id": "367576839",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hovering Bot.wav",
+      "CachePath": "SFX/Hovering Bot_D79FB2B7.wem"
      },
      {
       "Id": "406692048",
@@ -765,6 +773,9 @@
         "Id": "111330509"
        },
        {
+        "Id": "367576839"
+       },
+       {
         "Id": "819076458"
        }
       ]
@@ -984,6 +995,6 @@
     ]
    }
   ],
-  "FileHash": "{06EC0B18-1E9A-7CDC-D2B6-B33E917C2D0C}"
+  "FileHash": "{65CD8A76-13FB-A769-B76C-CB196A8F06E7}"
  }
 }

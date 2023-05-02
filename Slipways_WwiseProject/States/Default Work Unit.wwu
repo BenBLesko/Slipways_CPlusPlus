@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5EEAAC5B-4933-46A3-B45A-4D97957EF235}" SchemaVersion="110">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{5EEAAC5B-4933-46A3-B45A-4D97957EF235}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5EEAAC5B-4933-46A3-B45A-4D97957EF235}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="IsOnLava" ID="{A786015F-51BD-49A2-AEF9-DBBAD24A6B2A}">
+					<ChildrenList>
+						<State Name="None" ID="{20D85916-782E-4948-8CF1-592A598801EB}"/>
+						<State Name="OnLava" ID="{71D618B3-7230-44C4-8284-4160FD60EE41}"/>
+						<State Name="OffLava" ID="{34AD9346-1F03-4DE6-B735-C9F3A7FD36FF}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="IsOnGround" ID="{0B4CB037-D1B9-41DB-B427-069ADF176563}">
+					<ChildrenList>
+						<State Name="None" ID="{E6C99F9D-337C-4DA9-BDBD-1EF2D29E88ED}"/>
+						<State Name="OffGround" ID="{EFFEC573-28D8-4F6B-A62A-A20464DA3555}"/>
+						<State Name="OnGround" ID="{891C088E-7878-46EF-B1A7-B2E4A39ED6CE}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

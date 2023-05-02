@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{FB2EDB54-3CFD-4077-ABC3-8E90FCA9E6C1}" Language="SFX" Hash="{AC199F89-18FA-A8DA-7D1F-DFCA30A8163B}">
+		<SoundBank Id="3161908922" Type="User" GUID="{FB2EDB54-3CFD-4077-ABC3-8E90FCA9E6C1}" Language="SFX" Hash="{3698AC3E-628C-12F4-6D49-84A0B2ADDEB1}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -145,6 +145,10 @@
 				<File Id="361530650" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LSFX_Pour-001.wav</ShortName>
 					<CachePath>SFX/LSFX_Pour-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="367576839" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hovering Bot.wav</ShortName>
+					<CachePath>SFX/Hovering Bot_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="406692048" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MM\Foundry\Guitar\MM_88FoundryRhythmC.wav</ShortName>
@@ -364,6 +368,7 @@
 				<Event Id="1790203263" Name="HoverIdle" ObjectPath="\Events\Default Work Unit\PSFX\HoverIdle" GUID="{1243EB93-8E84-4293-87A8-436A01FF92E4}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="111330509"/>
+						<MediaRef Id="367576839"/>
 						<MediaRef Id="819076458"/>
 					</MediaRefs>
 				</Event>
@@ -444,5 +449,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6CEB7E3A-F019-F26F-EC56-F077CE9954B1}</FileHash>
+	<FileHash>{8E51D092-CE7F-C5BB-02F5-2772D3E9FC2F}</FileHash>
 </SoundBanksInfo>
