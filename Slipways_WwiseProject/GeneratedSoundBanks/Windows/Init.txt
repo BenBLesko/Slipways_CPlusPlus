@@ -1,4 +1,24 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	82473528	IsOnLava			\Default Work Unit\IsOnLava	
+	264200331	IsOnGround			\Default Work Unit\IsOnGround	
+
+State	ID	Name	State Group			Notes
+	748895195	None	IsOnLava			
+	2380591324	OnLava	IsOnLava			
+	2431494014	OffLava	IsOnLava			
+	223416773	OffGround	IsOnGround			
+	748895195	None	IsOnGround			
+	1200033591	OnGround	IsOnGround			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	106955261	OffGround	IsOnGround	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\PSFX		
+	323566451	OffGround	IsOnGround	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MM		
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	274816960	LSFX			\Default Work Unit\Master Audio Bus\LSFX	
+	1540877884	PSFX			\Default Work Unit\Master Audio Bus\PSFX	
+	1685527067	MM			\Default Work Unit\Master Audio Bus\MM	
+	3199838831	ASFX			\Default Work Unit\Master Audio Bus\ASFX	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Audio Devices	ID	Name	Type				Notes

@@ -10,6 +10,24 @@ Event	ID	Name			Wwise Object Path	Notes
 	2389703494	Boost			\Default Work Unit\PSFX\Boost	
 	3770659685	BoostEnd			\Default Work Unit\PSFX\BoostEnd	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	82473528	IsOnLava			\Default Work Unit\IsOnLava	
+	264200331	IsOnGround			\Default Work Unit\IsOnGround	
+
+State	ID	Name	State Group			Notes
+	748895195	None	IsOnLava			
+	2380591324	OnLava	IsOnLava			
+	2431494014	OffLava	IsOnLava			
+	223416773	OffGround	IsOnGround			
+	748895195	None	IsOnGround			
+	1200033591	OnGround	IsOnGround			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	425569462	OffGround	IsOnGround	\Actor-Mixer Hierarchy\Default Work Unit\PSFX\PSFX_HoverAir		
+	627589471	OnGround	IsOnGround	\Actor-Mixer Hierarchy\Default Work Unit\PSFX\PSFX_HoverAir		
+	629569221	OffLava	IsOnLava	\Actor-Mixer Hierarchy\Default Work Unit\PSFX\PSFX_HoverIdle		
+	814456895	OffLava	IsOnLava	\Actor-Mixer Hierarchy\Default Work Unit\ASFX\ASFX_Bubbles		
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1493153371	PlayerSpeed			\Default Work Unit\PlayerSpeed	
 
@@ -49,6 +67,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	355988937	ASFX_Bubbles-005	E:\Uni\Year 3\Professional Project\GitHub\Slipways_CPlusPlus\Slipways_WwiseProject\.cache\Windows\SFX\ASFX_Bubbles-005_45245E50.wem		\Actor-Mixer Hierarchy\Default Work Unit\ASFX\ASFX_Bubbles\ASFX_Bubbles-005		705696
 	361132103	ASFX_ChainBelt-006	E:\Uni\Year 3\Professional Project\GitHub\Slipways_CPlusPlus\Slipways_WwiseProject\.cache\Windows\SFX\ASFX_ChainBelt-006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ASFX\ASFX_ChainBelt\ASFX_ChainBelt-006		574788
 	361530650	LSFX_Pour-001	E:\Uni\Year 3\Professional Project\GitHub\Slipways_CPlusPlus\Slipways_WwiseProject\.cache\Windows\SFX\LSFX_Pour-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\LSFX\LSFX_Pour\LSFX_Pour-001		529296
+	367576839	PSFX_HoverAir	E:\Uni\Year 3\Professional Project\GitHub\Slipways_CPlusPlus\Slipways_WwiseProject\.cache\Windows\SFX\Hovering Bot_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\PSFX\PSFX_HoverAir		2875080
 	406692048	MM_88FoundryRhythmC	E:\Uni\Year 3\Professional Project\GitHub\Slipways_CPlusPlus\Slipways_WwiseProject\.cache\Windows\SFX\MM\Foundry\Guitar\MM_88FoundryRhythmC_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\88Foundry\Chorus\MM_88FoundryRhythmC		2165004
 	436573391	LSFX_Swoosh-007	E:\Uni\Year 3\Professional Project\GitHub\Slipways_CPlusPlus\Slipways_WwiseProject\.cache\Windows\SFX\LSFX_Swoosh-007_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\LSFX\LSFX_Swoosh\LSFX_Swoosh-007		88296
 	445880534	ASFX_ChainBelt-005	E:\Uni\Year 3\Professional Project\GitHub\Slipways_CPlusPlus\Slipways_WwiseProject\.cache\Windows\SFX\ASFX_ChainBelt-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ASFX\ASFX_ChainBelt\ASFX_ChainBelt-005		574788
